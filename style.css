@@ -1,0 +1,12 @@
+body{margin:0;font-family:"Poppins",sans-serif;background:#f3f5f8;color:#0a1d33;scroll-behavior:smooth;}
+.hero{background:#071829;text-align:center;padding:120px 20px 110px;color:white;}
+.hero-logo{width:230px;margin-bottom:25px;opacity:0;animation:fadeIn 2s ease forwards;}
+.hero h1{font-size:52px;margin:10px 0 5px;font-weight:600;opacity:0;animation:fadeIn 2.4s ease forwards;}
+.hero h2{margin-top:10px;font-size:20px;font-weight:300;opacity:0;animation:fadeIn 3s ease forwards;}
+.contact-btn{display:inline-block;margin-top:30px;padding:14px 34px;background:#fff;color:#071829;font-weight:600;border-radius:40px;text-decoration:none;font-size:17px;transition:.3s;opacity:0;animation:fadeIn 3.5s ease forwards;}
+.contact-btn:hover{background:#dce3ff;transform:translateY(-2px);}
+.section{max-width:900px;margin:90px auto;padding:0 20px;text-align:center;opacity:0;transform:translateY(20px);animation:fadeInUp 1.2s ease forwards;}
+.section h3{font-size:34px;margin-bottom:25px;font-weight:600;}
+footer{background:#071829;color:white;text-align:center;padding:22px;margin-top:80px;font-size:14px;}
+@keyframes fadeIn{0%{opacity:0;transform:translateY(15px);}100%{opacity:1;transform:translateY(0);}}
+@keyframes fadeInUp{0%{opacity:0;transform:translateY(25px);}100%{opacity:1;transform:translateY(0);}}
